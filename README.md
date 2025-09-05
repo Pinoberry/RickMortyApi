@@ -1,4 +1,4 @@
-# Rick y Morty Junior
+# Rick y Morty
 
 ## Descripción
 Aplicación estática que consume la API pública de Rick and Morty para listar personajes, buscar por nombre y navegar con paginación. Usa un diseño claro y pastel con tipografía `Montserrat`, tarjetas limpias y sombras suaves.
