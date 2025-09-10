@@ -1,4 +1,4 @@
-# Rick and Morty API Explorer
+# Rick and Morty API
 
 Aplicación web estática que permite explorar y buscar personajes de la serie Rick and Morty utilizando la API pública de Rick and Morty.
 
