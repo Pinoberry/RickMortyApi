@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rick y Morty Junior</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="encabezado">
+      <h1 class="titulo">Rick y Morty</h1>
+      <form id="formulario" class="buscador">
+        <input id="entrada" class="entrada" type="text" placeholder="Buscar personaje..." autocomplete="off" />
+        <button class="boton" type="submit">Buscar</button>
+      </form>
+    </header>
+
+    <main class="principal">
+      <section class="controles">
+        <div class="paginacion">
+          <button id="anterior" class="boton" disabled>← Anterior</button>
+          <span id="indicador" class="indicador">Página 1</span>
+          <button id="siguiente" class="boton">Siguiente →</button>
+        </div>
+      </section>
+
+      <section id="lista" class="grid"></section>
+
+      <div id="capa" class="capa">
+        <div class="rueda"></div>
+      </div>
+    </main>
+
+    <footer class="pie">
+      <p>2025 App Rick y Morty | Datos de <a href="https://rickandmortyapi.com/" target="_blank">API pública</a></p>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
